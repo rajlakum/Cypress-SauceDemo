@@ -1,0 +1,23 @@
+[
+        {
+
+        "firstName" : "TestC",
+        "lastName" : "LastC",
+        "emailAddress": "TestC@igmail.com",
+        "password" : "cypressF1"
+
+    },
+    {
+        "firstName" : "TestY",
+        "lastName" : "LastY",
+        "emailAddress": "TestY@igmail.com",
+        "password" : "cypressF2"
+    },
+        {
+        "firstName" : "TestP",
+        "lastName" : "LastP",
+        "emailAddress": "TestP@igmail.com",
+        "password" : "cypressF3"
+    }
+
+]

@@ -1,0 +1,23 @@
+{
+  "name": "cypress-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rajlakum/Cypress-SauceDemo#readme",
+  "bugs": {
+    "url": "https://github.com/rajlakum/Cypress-SauceDemo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajlakum/Cypress-SauceDemo.git"
+  },
+  "license": "ISC",
+  "author": "Raj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.9.0"
+  }
+}
