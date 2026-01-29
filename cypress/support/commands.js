@@ -25,3 +25,10 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 //Intelligent auto suggestion
 /// <reference types = "cypress" />  
+
+Cypress.Commands.add('login', (emailAddress, password) =>{
+    cy.visit('/')
+    cy.get('#customer_email').type(emailAddress)
+    cy.get('#customer_password').type(password)
+    cy.get("input.button[type='submit'][value='Sign In']").click()
+})

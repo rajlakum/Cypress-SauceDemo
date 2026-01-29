@@ -4,20 +4,26 @@
         "firstName" : "TestC",
         "lastName" : "LastC",
         "emailAddress": "TestC@igmail.com",
-        "password" : "cypressF1"
+        "password" : "cypressF1",
+        "expected": "Account Details and Order History",
+        "item": "jacket"
 
     },
     {
         "firstName" : "TestY",
         "lastName" : "LastY",
         "emailAddress": "TestY@igmail.com",
-        "password" : "cypressF2"
+        "password" : "cypressF2",
+        "expected": "Account Details and Order History",
+        "item": "top"
     },
         {
         "firstName" : "TestP",
         "lastName" : "LastP",
         "emailAddress": "TestP@igmail.com",
-        "password" : "cypressF3"
+        "password" : "cypressF3",
+        "expected": "Account Details and Order History",
+        "item": "shoes"
     }
 
 ]
