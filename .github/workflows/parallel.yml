@@ -12,6 +12,13 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:registration -- --browser chrome
+      - name: Cypress Test Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mochaawsome Reports - registration
+          path: cypress/reports/html
+
   search-Edge:
     runs-on: ubuntu-24.04
     steps:
@@ -23,3 +30,9 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:addToCart -- --browser edge
+      - name: Cypress Test Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mochaawsome Reports AddToCart
+          path: cypress/reports/html
