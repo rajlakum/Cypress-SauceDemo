@@ -2,6 +2,13 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
     reporter: 'cypress-mochawesome-reporter',
+    reporterOptions: {
+    reportDir: "cypress/reports/html",
+    overwrite: false,
+    html: true,
+    json: true
+  },
+
 
   e2e: {
     baseUrl : "https://sauce-demo.myshopify.com/account/login",
