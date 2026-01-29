@@ -12,7 +12,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:registration -- --browser chrome
-  search-Firefox:
+  search-Edge:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
