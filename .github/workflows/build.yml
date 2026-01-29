@@ -1,4 +1,4 @@
-name: First Set Of GitHib Action
+name: First Set Of GitHib Action E2E
 on: push
 jobs:
   cypress-run:
